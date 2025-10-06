@@ -1,0 +1,74 @@
+/* General reset */
+* {
+    margin: 0; /* Reset margin */
+    padding: 0; /* Reset padding */
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0e0e0; /* Light greyish background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container styling */
+.container {
+    max-width: 1200px; /* Increase max-width to make the container wider */
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #27ae60;
+    text-align: center;
+}
+
+/* Form styling */
+.form-group {
+    margin-bottom: 30px;
+    width: 100%; /* Make it 100% of the container's width */
+    background-color: #f0f0f0; /* Light greyish color */
+    padding: 15px; /* Add some padding for spacing */
+    border-radius: 8px; /* Optional: rounded corners */
+    border: 1px solid #ccc; /* Optional: light border to distinguish it */
+}
+
+
+.label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    margin-right: 30pc;
+    color: #34495e;
+}
+
+input[type="number"], select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
