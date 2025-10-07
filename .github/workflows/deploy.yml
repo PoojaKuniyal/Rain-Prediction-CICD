@@ -33,6 +33,13 @@ jobs:
               run: |
                 gcloud config set project $PROJECT_ID
                 gcloud auth configure-docker us-central1-docker.pkg.dev
+
+            - name: Install Docker
+              run: |
+                sudo apt-get update
+                sudo apt-get install -y docker.io
+                sudo systemctl start docker
+                sudo systemctl enable docker
             
             - name: Building and Pushing Image
               run: |
