@@ -37,9 +37,6 @@ From a real-world perspective, this solution helps **farmers, logistics provider
    - Real-time logs tracked via Kubernetes pods.  
    - TensorBoard used for visualizing model metrics and validation trends.
 
----
-![Kubernetes Cluster](./notebook/RainCluster.png)
-
 --
 
 ![CircleCI Deployment](./notebook/RainCircleCI.png)
@@ -73,11 +70,13 @@ From a real-world perspective, this solution helps **farmers, logistics provider
 | **Language**         | Python                               |
 | **Libraries**        | scikit-learn, XGBoost, pandas, numpy |
 | **MLOps Tools**      | CometML                              |
-| **CI/CD**            | GitHub Actions, CircleCI             |
+| **CI/CD**            | GitHub Actions, CircleCI, GitLab     |
 | **Containerization** | Docker                               |
 | **Cloud Deployment** | Google Kubernetes Engine (GKE)       |
-| **Visualization**    | TensorBoard, Matplotlib              |
+| **Visualization**    |  Matplotlib                          |
 
+--
+Due to Google Cloud Service Key issue failed to deploy on GitLab but attempted...
 --
 🧩 Key Features
 
