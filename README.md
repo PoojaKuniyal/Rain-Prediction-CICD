@@ -72,7 +72,7 @@ From a real-world perspective, this solution helps **farmers, logistics provider
 | -------------------- | ------------------------------------ |
 | **Language**         | Python                               |
 | **Libraries**        | scikit-learn, XGBoost, pandas, numpy |
-| **MLOps Tools**      | DVC, CometML                         |
+| **MLOps Tools**      | CometML                              |
 | **CI/CD**            | GitHub Actions, CircleCI             |
 | **Containerization** | Docker                               |
 | **Cloud Deployment** | Google Kubernetes Engine (GKE)       |
